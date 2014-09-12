@@ -1,0 +1,27 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background-color:rgb(240, 234, 214);
+	color:rgb(128, 158, 173);
+}
+
+* {
+	text-transform:uppercase;
+	font-family: 'UGO Line', Helvetica, Sans Serif;
+}
+
+#splash * {
+	font-size:2em;
+	text-decoration:none;
+	color:inherit;
+}
+
+#splash a:hover {
+	color:rgb(128, 158, 200);
+}
+
+.content {
+	max-width:1000px;
+	margin:7em auto;
+}
